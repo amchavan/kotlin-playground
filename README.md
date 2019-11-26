@@ -22,3 +22,5 @@ Where I play around with a new language.
 
 * Classes.kt  
   Class definitions and inheritance
+
+### Continue with https://play.kotlinlang.org/byExample/02_control_flow/01_When
