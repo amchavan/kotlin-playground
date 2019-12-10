@@ -18,6 +18,6 @@ fun main() {                            // main() can be called without paramete
     log("This is an error message", "ERROR")
     log(level = "SURPRISE", message="This is a surprise message")   // named arguments
 
-    log( "plus(4,3) = " + plus(4,3).toString() )
+    log( "plus(4,3) = " + plus(4,3) )
     log( "minus(4,3) = " + minus(4,3).toString() )
 }

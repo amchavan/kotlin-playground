@@ -22,4 +22,5 @@ fun main() {
 
     val bicycle = Cycle("street bike", 1)   // bicycle has one passenger
     println("Vehicle '" + bicycle.name + "' has " + bicycle.wheelNo + " wheels")
+    println("Vehicle '$bicycle")
 }

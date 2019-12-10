@@ -12,7 +12,7 @@ fun main() {
     println( "t1: $t1" )        // toString() method
     println( "t2: $t2" )
 
-    println( "t1.ra = $t1.ra" )
+    println( "t1.ra = ${t1.ra}" )
     println( "t2 second constructor parameter = ${t2.component2()}" )
 
     println( "t1 == t2: ${t1 == t2}" )

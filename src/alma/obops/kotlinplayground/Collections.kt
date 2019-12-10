@@ -3,7 +3,7 @@ package alma.obops.kotlinplayground
 // Lists, Maps, etc.
 // ----------------------------------
 
-val languages = listOf( "Java", "Pascal", "Fortran", "COBOL", "Python" )
+val languages = listOf( "Java", "Pascal", "FORTRAN", "COBOL", "Python" )
 val programmers = mapOf( "Maurizio" to "Java",
                          "Rodrigo"  to "Python" )
 
@@ -17,9 +17,11 @@ fun main() {
 
     print( "First P-language: " )
     println( languages.first { x -> x.startsWith( "P" ) } )
+//    println( languages.first { x -> x.startsWith( "PQQQ" ) } )
 
     print( "All-uppercase language: " )
     println( languages.find { x -> x == x.toUpperCase() } )
+    println( languages.find { x -> false } )
 
     print( "Lowercase: " )
     println( languages.map { it.toLowerCase() } )   // equivalent to x -> x.toLowerCase()
