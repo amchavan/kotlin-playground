@@ -14,6 +14,9 @@ Where I play around with a new language.
 * Functions3.kt  
   Varargs
 
+* Functions4.kt  
+  Higher-order functions
+
 * Variables.kt  
   Mutable and immutable variables
 
@@ -22,5 +25,15 @@ Where I play around with a new language.
 
 * Classes.kt  
   Class definitions and inheritance
+  
+* Classes2.kt  
+  Data classes
 
-### Continue with https://play.kotlinlang.org/byExample/02_control_flow/01_When
+* ControlFlow.kt  
+  for, while
+
+* ControlFlow2.kt  
+  If, when, etc.
+
+* Collections.kt  
+  Lists, Maps, etc.

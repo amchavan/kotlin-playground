@@ -16,7 +16,7 @@ fun minus( x : Int, y : Int) = x - y    // a single expression, return type is i
 fun main() {                            // main() can be called without parameters
     log("This is an info message")     // use default value for level
     log("This is an error message", "ERROR")
-    log(level = "SURPRISE", message="This is a surprise message")   // name arguments
+    log(level = "SURPRISE", message="This is a surprise message")   // named arguments
 
     log( "plus(4,3) = " + plus(4,3).toString() )
     log( "minus(4,3) = " + minus(4,3).toString() )

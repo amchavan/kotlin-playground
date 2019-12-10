@@ -3,8 +3,8 @@ package alma.obops.kotlinplayground
 // Infix methods and operator overloading
 //---------------------------------------
 
-fun Int.double() = this + this;                 // add a method to Int
-infix fun Int.multipliedBy(y: Int) = this * y   // add an infix method to Int
+fun Int.double() = this + this;                     // add a method to Int
+infix fun Int.multipliedBy(y: Int) = this * y       // add an infix method to Int
 operator fun String.times(n: Int) = this.repeat(n)  // define a new binary operator for String
 
 fun main() {
